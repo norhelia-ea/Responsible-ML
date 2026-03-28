@@ -27,8 +27,6 @@ The workflow covers five analytical stages:
 
 ## Instructions for Reproducing the Results
 
-### Option 1 – Google Colab (Recommended)
-
 1. Open [Google Colab](https://colab.research.google.com/)
 2. Click **File → Upload notebook** and select `Homework01_Norhelia_Echevarria.ipynb`
 3. Run all cells: **Runtime → Run all**
