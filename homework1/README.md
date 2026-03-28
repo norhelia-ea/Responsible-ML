@@ -2,8 +2,6 @@
 **DNSC 6330 – Responsible Machine Learning | Individual Assigment Homework from Lecture 01**  
 George Washington University · Norhelia Echevarria
 
----
-
 ## Purpose of the Analysis
 
 This notebook replicates and extends **ProPublica's investigation of the COMPAS recidivism algorithm** using Python. COMPAS (Correctional Offender Management Profiling for Alternative Sanctions) is a tool that predicts whether a defendant will reoffend within two years. ProPublica's 2016 analysis found evidence of **racial bias** in its predictions.
@@ -15,8 +13,6 @@ The workflow covers five analytical stages:
 3. **Logistic regression modeling** – Predicting whether a defendant receives a high COMPAS score, controlling for criminal history, charge severity, and demographics.
 4. **Relative risk estimation** – Quantifying how much more likely Black, female, and younger defendants are to receive higher risk scores.
 5. **Fairness evaluation** – Overall and race-stratified confusion matrices; False Positive Rate (FPR) and False Negative Rate (FNR) disparity analysis.
-
----
 
 ## Python Libraries Used
 
@@ -61,7 +57,6 @@ The dataset is fetched automatically at runtime — no manual download needed:
 https://raw.githubusercontent.com/propublica/compas-analysis/master/compas-scores-two-years.csv
 ```
 
----
 
 ## References
 
