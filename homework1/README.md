@@ -33,19 +33,6 @@ The workflow covers five analytical stages:
 
 All required libraries are pre-installed in Colab. No additional setup needed.
 
-### Option 2 – Local Jupyter Environment
-```bash
-# 1. Clone this repository
-git clone https://github.com/norhelia-ec/Responsible-ML.git
-cd Responsible-ML/homework1
-
-# 2. Install dependencies
-pip install pandas numpy matplotlib statsmodels jupyter
-
-# 3. Launch Jupyter
-jupyter notebook Homework01_Norhelia_Echevarria.ipynb
-```
-
 Run all cells sequentially from top to bottom.
 
 ### Data Source
