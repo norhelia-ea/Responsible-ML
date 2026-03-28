@@ -1,6 +1,8 @@
-# COMPAS Recidivism Risk Score Analysis
-**DNSC 6330 – Responsible Machine Learning | Individual Assigment Homework from Lecture 01**  
+# COMPAS Analysis
+**DNSC 6330 – Responsible Machine Learning**  
 George Washington University · Norhelia Echevarria
+
+**Individual Homework 1 - Translating an R Machine Learning Workflow into Python**
 
 ## Purpose of the Analysis
 
