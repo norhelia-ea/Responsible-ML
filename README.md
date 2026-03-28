@@ -1,2 +1,2 @@
-**DNSC 6330 – Responsible Machine Learning | Individual Assigment Homework from Lecture 01**  
+**DNSC 6330 – Responsible Machine Learning**  
 George Washington University · Norhelia Echevarria
