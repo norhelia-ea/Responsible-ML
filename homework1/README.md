@@ -1,6 +1,6 @@
 # COMPAS Analysis
 **DNSC 6330 – Responsible Machine Learning**  
-George Washington University · Norhelia Echevarria
+George Washington University · Norhelia Emilia Echevarria Angeles
 
 **Individual Homework 1 - Translating an R Machine Learning Workflow into Python**
 
