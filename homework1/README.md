@@ -40,9 +40,8 @@ Run all cells sequentially from top to bottom.
 ### Data Source
 
 The dataset is fetched automatically at runtime — no manual download needed:
-```
 https://raw.githubusercontent.com/propublica/compas-analysis/master/compas-scores-two-years.csv
-```
+
 
 
 ## References
