@@ -10,11 +10,11 @@ This notebook replicates and extends **ProPublica's investigation of the COMPAS 
 
 The workflow covers five analytical stages:
 
-1. **Data loading and cleaning** : Fetching the COMPAS dataset and filtering out low-quality records (missing charge dates, invalid offense codes, insufficient follow-up time). Final sample: 6,172 defendants.
-2. **Exploratory analysis** : Demographic breakdowns by race, gender, and age; decile score distributions across racial groups.
-3. **Logistic regression modeling** – Predicting whether a defendant receives a high COMPAS score, controlling for criminal history, charge severity, and demographics.
-4. **Relative risk estimation** – Quantifying how much more likely Black, female, and younger defendants are to receive higher risk scores.
-5. **Fairness evaluation** – Overall and race-stratified confusion matrices; False Positive Rate (FPR) and False Negative Rate (FNR) disparity analysis.
+1. **Data loading and cleaning**: Fetching the COMPAS dataset and filtering out low-quality records (missing charge dates, invalid offense codes, insufficient follow-up time). Final sample: 6,172 defendants.
+2. **Exploratory analysis**: Demographic breakdowns by race, gender, and age; decile score distributions across racial groups.
+3. **Logistic regression modeling**: Predicting whether a defendant receives a high COMPAS score, controlling for criminal history, charge severity, and demographics.
+4. **Relative risk estimation**: Quantifying how much more likely Black, female, and younger defendants are to receive higher risk scores.
+5. **Fairness evaluation**: Overall and race-stratified confusion matrices; False Positive Rate (FPR) and False Negative Rate (FNR) disparity analysis.
 
 ## Python Libraries Used
 
