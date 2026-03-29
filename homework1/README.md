@@ -16,7 +16,7 @@ This notebook replicates and extends **ProPublica's investigation of the COMPAS 
 - Estimates relative risk across groups  
 - Evaluates fairness using confusion matrices, FPR, and FNR  
 
-## Tools Used
+## Libraries
 
 - `pandas` – data processing  
 - `numpy` – numerical operations  
@@ -39,8 +39,3 @@ The dataset is fetched automatically at runtime — no manual download needed:
 https://raw.githubusercontent.com/propublica/compas-analysis/master/compas-scores-two-years.csv
 
 
-
-## References
-
-- Angwin et al. (2016). *Machine Bias*. ProPublica. https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing  
-- ProPublica COMPAS Analysis: https://github.com/propublica/compas-analysis
