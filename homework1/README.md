@@ -19,10 +19,10 @@ This notebook replicates and extends ProPublica's investigation of the COMPAS re
 
 ## Libraries
 
-- `pandas` – data processing  
-- `numpy` – numerical operations  
-- `matplotlib` – visualization  
-- `statsmodels` – logistic regression  
+- `pandas`  
+- `numpy`
+- `matplotlib` 
+- `statsmodels` 
 
 ## Instructions for Reproducing the Results
 
