@@ -30,7 +30,6 @@ This notebook replicates and extends ProPublica's investigation of the COMPAS re
 3. Run all cells: **Runtime → Run all**
 
 All required libraries are pre-installed in Colab. No additional setup needed.
-
 Run all cells sequentially from top to bottom.
 
 ### Data Source
