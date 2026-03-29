@@ -8,24 +8,20 @@ George Washington University · Norhelia Emilia Echevarria Angeles
 
 This notebook replicates and extends **ProPublica's investigation of the COMPAS recidivism algorithm** using Python. COMPAS (Correctional Offender Management Profiling for Alternative Sanctions) is a tool that predicts whether a defendant will reoffend within two years. ProPublica's 2016 analysis found evidence of **racial bias** in its predictions.
 
-The workflow covers five analytical stages:
+## What this notebook does
 
-1. **Data loading and cleaning**: Fetching the COMPAS dataset and filtering out low-quality records (missing charge dates, invalid offense codes, insufficient follow-up time). Final sample: 6,172 defendants.
-2. **Exploratory analysis**: Demographic breakdowns by race, gender, and age; decile score distributions across racial groups.
-3. **Logistic regression modeling**: Predicting whether a defendant receives a high COMPAS score, controlling for criminal history, charge severity, and demographics.
-4. **Relative risk estimation**: Quantifying how much more likely Black, female, and younger defendants are to receive higher risk scores.
-5. **Fairness evaluation**: Overall and race-stratified confusion matrices; False Positive Rate (FPR) and False Negative Rate (FNR) disparity analysis.
+- Cleans and filters the COMPAS dataset  
+- Explores demographic patterns (race, gender, age)  
+- Builds a logistic regression model  
+- Estimates relative risk across groups  
+- Evaluates fairness using confusion matrices, FPR, and FNR  
 
-## Python Libraries Used
+## Tools Used
 
-| Library | Purpose |
-|---|---|
-| `pandas` | Data loading, filtering, manipulation, and crosstabs |
-| `numpy` | Numerical operations and array handling |
-| `matplotlib` | Decile score distribution plots by race |
-| `statsmodels` | Logistic regression (`smf.logit`) and model interpretation |
-
----
+- `pandas` – data processing  
+- `numpy` – numerical operations  
+- `matplotlib` – visualization  
+- `statsmodels` – logistic regression  
 
 ## Instructions for Reproducing the Results
 
