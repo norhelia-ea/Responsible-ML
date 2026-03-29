@@ -6,7 +6,7 @@ George Washington University · Norhelia Emilia Echevarria Angeles
 
 ## Purpose of the Analysis
 
-This notebook replicates and extends **ProPublica's investigation of the COMPAS recidivism algorithm** using Python. COMPAS (Correctional Offender Management Profiling for Alternative Sanctions) is a tool that predicts whether a defendant will reoffend within two years. ProPublica's 2016 analysis found evidence of **racial bias** in its predictions.
+This notebook replicates and extends ProPublica's investigation of the COMPAS recidivism algorithm using Python. COMPAS (Correctional Offender Management Profiling for Alternative Sanctions) is a tool that predicts whether a defendant will reoffend within two years. ProPublica's 2016 analysis found evidence of racial bias in its predictions.
 
 ## What this notebook does
 
