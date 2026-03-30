@@ -15,7 +15,11 @@ This notebook extends the COMPAS recidivism analysis from Lecture 02 by training
 - Explores demographic patterns (race, gender, age)  
 - Builds a logistic regression model  
 - Estimates relative risk across groups  
-- Evaluates fairness using confusion matrices, FPR, and FNR  
+- Evaluates fairness using confusion matrices, FPR, and FNR
+- Analyzes feature importance using SHAP (global explanations)
+- Explains individual predictions using LIME (local explanations)
+- Compares global vs. local interpretability (SHAP vs. LIME)
+- Identifies potential proxy effects related to sensitive attributes (e.g., race)
 
 ## Libraries
 
