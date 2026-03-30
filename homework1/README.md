@@ -33,7 +33,7 @@ This notebook replicates and extends ProPublica's investigation of the COMPAS re
 All required libraries are pre-installed in Colab. No additional setup needed.
 Run all cells sequentially from top to bottom.
 
-### Data Source
+## Data Source
 
 The dataset is fetched automatically at runtime, no manual download needed:
 https://raw.githubusercontent.com/propublica/compas-analysis/master/compas-scores-two-years.csv
