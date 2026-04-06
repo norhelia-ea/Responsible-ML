@@ -7,33 +7,33 @@ George Washington University · Norhelia Emilia Echevarria Angeles
 
 ## Purpose of the Analysis
 
-This notebook extends the COMPAS recidivism analysis from Lecture 02 by training  a replacement model and applying three explainability methods: SHAP, LIME, and DiCE counterfactuals.
+This section extends the COMPAS analysis by applying formal bias measurement techniques to the dataset and the replacement model built in Lecture 02. The goal is to quantify disparate impact across racial and gender groups using legally grounded metrics.
 
 ## What this notebook does
 
-- Cleans and filters the COMPAS dataset  
-- Explores demographic patterns (race, gender, age)  
-- Builds a logistic regression model  
-- Estimates relative risk across groups  
-- Evaluates fairness using confusion matrices, FPR, and FNR
-- Analyzes feature importance using SHAP (global explanations)
-- Explains individual predictions using LIME (local explanations)
-- Compares global vs. local interpretability (SHAP vs. LIME)
-- Identifies potential proxy effects related to sensitive attributes (e.g., race)
+- Computes **Adverse Impact Ratio (AIR)** and **Marginal Effect (ME)** for race and sex using the solas-ai library and manual Python functions, confirming identical results across both methods
+- Computes **Standardized Mean Difference (SMD)** on the COMPAS decile score
+- Builds an **intersectional analysis** (race × sex) and identifies the worst-affected subgroup
+- Computes **FPR and FNR disparities** by race and tests statistical significance using two-proportion z-tests
+- Produces a **publication-quality grouped bar chart** of FPR and FNR by race with Caucasian as the reference group
+- Writes a **compliance memo** summarizing findings, metrics used, and limitations addressed to a hypothetical regulato
 
 ## Libraries
 
-- `pandas`  
+- `pandas`
 - `numpy`
-- `matplotlib` 
+- `matplotlib`
 - `statsmodels`
+- `solas-ai` (`solas_disparity`)
 - `shap`
 - `lime`
+- `dice-ml`
+- `scikit-learn`
 
 ## Instructions for Reproducing the Results
 
 1. Open [Google Colab](https://colab.research.google.com/)
-2. Click **File → Upload notebook** and select `Homework02_Norhelia_Echevarria.ipynb`
+2. Click **File → Upload notebook** and select `Homework03_Norhelia_Echevarria.ipynb`
 3. Run all cells: **Runtime → Run all**
 
 All required libraries are pre-installed in Colab. No additional setup needed.
