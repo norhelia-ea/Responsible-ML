@@ -32,7 +32,7 @@ This section extends the COMPAS live-coding notebook from Lecture 04 by implemen
 ## Instructions for Reproducing the Results
 
 1. Open [Google Colab](https://colab.research.google.com/)
-2. Click **File → Upload notebook** and select `Homework03_Norhelia_Echevarria.ipynb`
+2. Click **File → Upload notebook** and select `Homework04_Norhelia_Echevarria.ipynb`
 3. Run all cells: **Runtime → Run all**
 
 All required libraries are pre-installed in Colab. No additional setup needed.
